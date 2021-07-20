@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery LightBox</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>My Panutan</h1>
+
+    <div class="container">
+
+        <ul class="gallery">
+            <li>
+                <a href="#gambar-1">
+                    <img src="img/thumbs/slash.jpg" alt="Slash">
+                    <span>Slash</span>
+                </a>
+
+                <div class="overlay" id="gambar-1">
+                    <a href="#" class="close">x close</a>
+                    <a href="#gambar-3" class="previous">previous</a>
+                    <img src="img/full/slash.png" alt="Slash">
+                    <a href="#gambar-2" class="next">next</a>
+                </div> 
+            </li>
+
+            <li>
+                <a href="#gambar-2">
+                    <img src="img/thumbs/mf.jpg" alt="Marty Friedman">
+                    <span>Marty Friedman</span>
+                </a> 
+
+                <div class="overlay" id="gambar-2">
+                    <a href="#" class="close">x close</a>
+                    <a href="#gambar-1" class="previous">previous</a>
+                    <img src="img/full/mf.png" alt="Marty Friedman">
+                    <a href="#gambar-3" class="next">next</a>
+                </div> 
+            </li>
+
+            <li>
+                <a href="#gambar-3">
+                    <img src="img/thumbs/jp.jpg" alt="John Petrucci">
+                    <span>John Petrucci</span>
+                </a> 
+
+                <div class="overlay" id="gambar-3">
+                    <a href="#" class="close">x close</a>
+                    <a href="#gambar-2" class="previous">previous</a>
+                    <img src="img/full/jp.png" alt="John Petrucci">
+                    <a href="#gambar-1" class="next">next</a>
+                </div> 
+            </li>
+            <div class="clear"></div>
+        </ul>
+
+    </div>
+
+</body>
+</html>
